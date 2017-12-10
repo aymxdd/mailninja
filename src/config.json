@@ -1,0 +1,22 @@
+{
+    "url": "http://localhost",
+    "port" : 3123,
+    "startState" : {
+        "fromEmail": "",
+        "toEmail": "",
+        "message": "",
+        "subject": "",
+        "appState": {
+            "error": false,
+            "errorMsg": "",
+            "busy": false
+        }
+    },
+    "resetErrorState" : {
+        "appState": {
+            "error": false,
+            "errorMsg": "",
+            "busy": true
+        }
+    }
+}

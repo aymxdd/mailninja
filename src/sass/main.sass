@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300")
+
+html, body
+    margin: 0
+    padding: 0
+    width: 100%
+    font-family: 'Lato', sans-serif
+    background-color: #967ADC
+    color: white
+
+.container
+    position: relative
+    max-width: 810px
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    align-items: center
+    box-sizing: border-box
+    @media screen and (max-width: 850px)
+        margin: 0 20px
+    @media screen and (max-width: 760px)
+        margin: 0 10px
+
+.title
+    user-select: none
+    cursor: default
+    margin: 75px 0
+    font-size: 48px
+    font-weight: 300
+    @media screen and (max-width: 760px)
+        margin: 40px 0
+        font-size: 32px
+
+input, textarea
+    background-color: #AC92EC
+    box-sizing: border-box
+    padding: 22px 32px
+    font-family: 'Lato', sans-serif
+    font-size: 20px
+    font-weight: 300
+    border: none
+    width: 100%
+    outline: none
+    color: white
+    &::placeholder
+        color: white
+    &:disabled
+        color: rgba(255,255,255,0.5)
+    @media screen and (max-width: 760px)
+        font-size: 16px
+        padding: 15px
+
+input
+    height: 67px
+    margin: 10px 0
+
+textarea
+    resize: none
+    height: 300px
+    margin: 40px 0 75px 0
+    @media screen and (max-width: 760px)
+        margin: 10px 0 30px 0
+        height: 250px
+
+.buttons
+    width: 100%
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin: 0 0 75px 0
+    @media screen and (max-width: 760px)
+        flex-direction: column-reverse
+        margin: 0 0 40px 0
+
+.btnReset, .btnSend
+    width: 50%
+    box-sizing: border-box
+    padding: 20px 0
+    cursor: pointer
+    user-select: none
+    text-align: center
+    border-radius: 5px
+    font-size: 22px
+    color: white
+    border: 5px solid #37BC9B
+    &[disabled]
+        pointer-events: none
+        cursor: default
+    &:hover
+        background-color: #48CFAD
+        border-color: #48CFAD
+    @media screen and (max-width: 760px)
+        margin: 0 0 15px 0 !important
+        padding: 15px 0
+        width: 100%
+        font-size: 16px
+        border-width: 3px
+
+.btnSend
+    background-color: #37BC9B
+    margin-left: 8px
+
+.btnReset
+    margin-right: 8px
+
+.error
+    display: none
+    width: 100%
+    box-sizing: border-box
+    padding: 22px 32px
+    margin-bottom: 15px
+    background-color: #DA4453
+    &[disabled]
+        display: block

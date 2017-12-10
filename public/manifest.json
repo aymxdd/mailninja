@@ -1,0 +1,15 @@
+{
+  "short_name": "Mail Ninja",
+  "name": "Mail Ninja - Easy Anonymous Mails",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#967ADC",
+  "background_color": "#967ADC"
+}
