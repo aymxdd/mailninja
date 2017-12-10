@@ -11,8 +11,8 @@ See the live version here: https://apps.aymericm.fr/mailninja
 Start the client:
 
 ```sh
-yarn
-yarn start
+npm install
+npm start
 ```
 
 Start the server:
