@@ -8,17 +8,25 @@ See the live version here: https://apps.aymericm.fr/mailninja
 
 ## How to install and run:
 
-Start the client:
+The app is composed of two source codes: the client, in React located in the root folder and the server, located in the `server` folder.
 
-```sh
-npm install
-npm start
-```
+You need to start the server first, then the client.
+
+#### Here is how you can start the app:
 
 Start the server:
 
 ```sh
+# you need to be in the server folder to start the server
 cd server
+npm install
+npm start
+```
+
+Start the client:
+
+```sh
+# you need to be in the root folder to start the client
 npm install
 npm start
 ```
