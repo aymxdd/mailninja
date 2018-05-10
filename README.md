@@ -8,7 +8,7 @@ See the live version here: https://apps.aymericm.fr/mailninja
 
 ## How to install and run:
 
-The app is composed of two source codes: the client, in React located in the root folder and the server, located in the `server` folder.
+The app is composed of two source codes: the React client, located in the root folder and the server, located in the `server` folder.
 
 You need to start the server first, then the client.
 
